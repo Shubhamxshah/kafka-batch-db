@@ -19,7 +19,7 @@ export const postConsumer = async () => {
 
     })
 
-    setInterval(processMessages, 5000); //run every 5 seconds
+    setInterval(processMessages, 5000); //also run every 5 seconds
   } catch (err) {
     
   }
